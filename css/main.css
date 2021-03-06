@@ -42,14 +42,14 @@ body {
 }
 
 /* header */
-.header{
-  clip-path: polygon(0 0,100% 0,100% 95%,50% 100%,0 95%);
+.header {
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
   color: var(--mainWhite);
   overflow: hidden;
 }
-.height-max{
+.height-max {
   min-height: calc(100vh - 77.55px);
-  background: url('../img/headerBcg.jpeg');
+  background-image: url("../img/headerBcg.jpeg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -59,14 +59,14 @@ body {
   animation-delay: 5s;
   animation-iteration-count: infinite;
 }
-@keyframes zoom{
-  0%{
-transform: scale(1);
+@keyframes zoom {
+  0% {
+    transform: scale(1);
   }
-  50%{
-transform: scale(1.08) translateX(-2%);
+  50% {
+    transform: scale(1.08) translateX(-2%);
   }
-  100%{
+  100% {
     transform: scale(1);
   }
 }
@@ -92,4 +92,28 @@ transform: scale(1.08) translateX(-2%);
 .price-icon:hover {
   color: var(--mainBlue);
   opacity: 0.5;
+}
+
+/* skills section */
+
+.skills-section-title {
+  padding: 0.5rem 2rem;
+  background: var(--transparentBlue);
+  color: var(--mainWhite);
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.skill-icon {
+  font-size: 3rem;
+  color: var(--mainYellow);
+  background-color: var(--mainGrey);
+}
+.skill-icon:hover {
+  color: var(--mainYellow);
+}
+.skill-underline {
+  width: 4rem;
+  height: 0.3rem;
+  background-color: var(--mainBlue);
+  margin: 1rem auto;
 }
