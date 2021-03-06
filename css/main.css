@@ -149,3 +149,26 @@ body {
   color: var(--mainWhite);
   clip-path: polygon(0% 0, 100% 0, 100% 100%, 0 100%);
 }
+
+/* qestion section */
+.question {
+  background: url("../img/questionBcg.jpeg") center/cover fixed no-repeat;
+}
+.question-icon {
+  font-size: 4rem;
+  color: var(--mainBlue);
+  transition: all 300ms ease-in-out;
+}
+.question-icon:hover {
+  color: var(--mainBlue);
+  transform: translateY(-10%);
+}
+.question-gray {
+  background: rgba(79, 109, 122, 0.75);
+}
+.question-yellow {
+  background: rgba(277, 181, 5, 0.75);
+}
+.question-info {
+  color: var(--mainWhite);
+}
