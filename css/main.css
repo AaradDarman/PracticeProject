@@ -334,3 +334,20 @@ body {
   font-size: 4rem;
   color: var(--mainYellow);
 }
+
+/* Quote Section */
+.customer-img {
+  margin-top: -4rem !important;
+  border: 0.5rem solid var(--mainWhite);
+}
+.customer-name {
+  font-size: 1.2rem;
+  color: var(--mainBlue);
+}
+.customer-quote {
+  max-width: 90%;
+}
+.quote-icon {
+  font-size: 2rem;
+  color: var(--mainGrey);
+}
