@@ -351,3 +351,16 @@ body {
   font-size: 2rem;
   color: var(--mainGrey);
 }
+/* Footer */
+.footer {
+  background-color: var(--mainBlack);
+}
+.footer-icon {
+  font-size: 1.5rem;
+  color: var(--mainYellow);
+  transition: color 500ms ease-in-out;
+  text-decoration: none;
+}
+.footer-icon:hover {
+  color: var(--mainBlue);
+}
