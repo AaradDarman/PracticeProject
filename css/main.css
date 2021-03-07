@@ -259,3 +259,34 @@ body {
 .gallery-item:hover:after {
   transform: scale(1);
 }
+
+/* contact section */
+.contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/headerBcg.jpeg") center/cover fixed no-repeat;
+}
+
+.contact-input {
+  font-size: 1.3rem;
+  border-color: var(--mainYellow);
+  color: var(--mainYellow);
+  background: transparent;
+}
+.contact-input::placeholder {
+  color: var(--mainYellow);
+}
+.contact-input:focus {
+  border-color: var(--mainYellow);
+  color: var(--mainYellow);
+  background: transparent;
+}
+.contact-btn {
+  border-color: var(--mainYellow);
+  color: var(--mainYellow);
+  transition: all 500ms linear;
+}
+.contact-btn:hover {
+  border-color: var(--mainBlack);
+  background-color: var(--mainYellow);
+  color: var(--mainBlack);
+}
